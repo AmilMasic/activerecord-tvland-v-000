@@ -3,6 +3,11 @@ class Character < ActiveRecord::Base
   belongs_to :show
 
   def catchphrase
-    
+    self.catchphrase
+
+      end
+
+
+    end
   end
 end
